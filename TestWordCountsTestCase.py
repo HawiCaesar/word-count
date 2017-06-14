@@ -84,3 +84,6 @@ class TestWordCounts(unittest.TestCase):
             words('hello  world'),
             msg='should count multiple spaces as one'
         )
+
+    if __name__ == '__main__':
+        unittest.main()
