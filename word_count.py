@@ -11,6 +11,7 @@ def words(phrase):
 
 	for word in list_of_words:
 
+		# The if-else acconunts for potential numbers in phrase
 		if word.isdigit():
 			occurence_dictionary[int(word)] = list_of_words.count(word)
 		else:
